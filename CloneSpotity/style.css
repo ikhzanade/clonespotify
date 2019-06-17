@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+:root{
+    --primary-color : #498172;
+    --secondary-color : #000000;
+    --text-color : white;
+}
+
+body{
+    font-family: poppins;
+}
+
+ div{
+    border: 1px solid red;
+} 
+/* ==================== NABAR SECTION============== */
+
+
+.header-container{
+    background-color: var(--secondary-color);
+    display: flex;
+    /* padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 105px;
+    padding-right: 105px; */
+    padding: 20px 105px 20px 105px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.brand img{
+    height: 40px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.link-item{
+    display: inline-block;
+    color: var(--text-color);
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.link-item:hover{
+    color: #1ab752;
+}
+
+.garis{
+    cursor: default;
+}
+.garis:hover{
+    color: white;
+}
+/* *****************END NAVBAR SECTION******************* */
+
+/* <!-- ===================================JUMOTRON SECTION======================= --> */
+
+.jumbotron-container{
+/* display: flex; */
+padding-top: 30px;
+padding-left: 105px;
+padding-right: 105px;
+margin-top: 80px;
+background-color: var(--primary-color);
+}
+
+.jumbotron-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.jumbotron-image img{
+    width: 467px;
+}
+
+.jumbotron-image{
+    padding-top: 35px;
+}
+
+.main-text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.second-text{
+    color: white;
+    font-size: 22px;
+    margin-top: 35px
+
+}
+.btn{
+    margin-top: 40;
+    width: 327px;
+    height: 48px;
+    border-radius: 48px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.white{
+    background-color: white;
+    color: #000000;
+    margin-top: 35px;
+}
+
+.second{
+    margin-top: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 304px;
+    transition: 100ms;
+}
+
+.second:hover{  
+    background-color: white;
+    color: black;   
+}
+
+.small-text{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-top: 200px;
+}
+/* <!-- ===================================JUMOTRON SECTION======================= --> */
+
+.center-container{
+    padding-top: 30px;
+    padding-left: 105px;
+    padding-right: 105px;
+    background-color: #9487b4;
+    }
+    
+    .center-item{
+        /* justify-content: space-between; */
+        margin-bottom: 90px;
+    }
+    .man-text{
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        text-align: center
+    }
+    .min-text{
+        color: white;
+        font-size: 12px;
+        text-align: center
+    }
+
+    .small2-text{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .comenzar{
+        margin-top: 15px;
+        background-color: white;
+        /* color: white; */
+        border: 1px solid white;
+        width: 304px;
+        transition: 100ms;
+        margin-left: 425px;
+       cursor: pointer;
+    }
+/* =================================================== */
+.promo-container{
+    padding-top: 30px;
+    padding-left: 105px;
+    padding-right: 105px;
+    background-color: white;
+}
+
+.promo-text{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center
+}
+
+.omo-text{
+    font-size: 16px;
+    text-align: center
+}
+.akun-prem{
+    margin-top: 15px;
+        background-color: white;
+        /* color: white; */
+        border: 1px solid #1ab752;
+        width: 304px;
+        transition: 100ms;
+       cursor: pointer;
+}
